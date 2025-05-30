@@ -1,0 +1,344 @@
+/* li {
+    display: inline;
+} */
+
+/* .image {
+    height: 200px;
+    width: 300px;
+    background-color: #fff;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background: url("https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2") no-repeat center / cover;
+} */
+
+/* .opacity1 {
+    height: 200px;
+    width: 300px;
+    background-color: rgba(255, 0, 0,.4);
+}
+
+
+.opacity2{
+    height: 200px;
+    width: 300px;
+    background-color: #ff0000ff;
+    opacity: 0.4;
+} */
+
+/* 
+.box {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: greenyellow;
+    transition: all 1s ease-in 0.1s;
+}
+
+.box.animate {
+    background-color: pink;
+    margin-top: 400px;
+    border-radius: 50%;
+} */
+/* 
+
+section {
+    margin: 100px 30px;
+    display: flex;
+}
+
+.box {
+    width: 100px;
+    height: 20px;
+    background-color: rgba(48, 177, 25, 0.4);
+    border: 1px solid green;
+    margin: 10px 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transform: scale(1.5) skew(45deg);
+}
+
+.box:nth-child(2n){
+    background-color: rgb(227, 188, 12);
+}
+
+.box:nth-child(3n){
+    background-color: rgb(217, 140, 17);
+} */
+/* 
+.box:nth-child(1){
+    /* transform: rotate(45deg); */
+/* } */
+
+/* .box:nth-child(2){ */
+/* transform: scale(1.6); */
+/* } */
+
+/* .box:nth-child(3){ */
+/* transform: skew(45deg) scale(1.6); */
+/* } */
+
+/* .box:nth-child(2){ */
+/* transform: scale(1.6); */
+/* } */
+
+/* .five {
+    transform: translate(45px, 55px);
+} */
+/*  */
+
+/* Box-shadow */
+
+/* .box{
+    height: 200px;
+    width: 400px;
+    margin: auto;
+    background-color: limegreen;
+    border: 2px solid black;
+    box-shadow: -5px 5px 9px black;
+    border-radius: 10px;
+} */
+/* 
+.box{
+    height: 200px;
+    width: 400px;
+    margin: auto;
+    margin-top: 200px;
+    box-shadow: -5px 5px 9px black;
+    border-radius: 10px 200px;
+    background-image: url('https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg');
+    background-position: cover;
+    transition: all 1s ease-in-out 0.2s;
+}
+
+.box:hover{
+    transform: rotate(180deg) scale(1.5) translate(100px, -100px);
+} */
+
+/* .box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    display: inline;
+    padding: 10px;
+    background-color: pink;
+}
+
+
+img{
+    width: 170px;
+    height: 100px;
+} */
+/* 
+.box {
+    width: 200px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 10px;
+    box-shadow: 5px 5px 15px black;
+    border-radius: 10px;
+}
+
+.box:hover {
+    cursor: pointer;
+    box-shadow: -2px 1px 25px gold;
+}
+
+.desc {
+    padding: 0 4px 0 1em;
+}
+
+img {
+    width: 100%;
+    height: 150px;
+     border-radius: 10px 10px 0 0;
+} */
+
+/* Qs1. Add a 2s transition on box1 for width changes.
+It should have 'ease-in' speed curve & 0.5s delay */
+/* *:hover{
+    cursor: pointer;
+}
+#box1 {
+    width: 100px;
+    height: 100px;
+    background: green;
+    transition: width 2s ease-in;
+}
+
+#box1:hover {
+    width: 600px;
+} */
+
+/* Qs2. Using transform, move box2 200px to the right &
+200px down. Also rotate it 90deg.*/
+/* #box2 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: 2s;
+   
+} */
+/* 
+#box2:hover{
+    transform: translate(200px,200px) rotate(90deg);
+} */
+
+/* Qs3. Using transform, skew box3 20deg along the x axis.*/
+/* #box3 {
+    width: 100px;
+    height: 100px;
+    background: lightblue;
+    transition: 2s;
+} */
+/* 
+#box3:hover {
+    transform: skewX(20deg);
+} */
+
+/* Qs4. Set a 2px horizontal & 2px vertical, green shadow
+for box4, with a 5px blur radius.*/
+/* #box4 {
+    width: 100px;
+    height: 100px;
+    background: lightgreen;
+} */
+
+/* #box4:hover{
+    box-shadow: 2px 2px 5px green;
+} */
+
+/* Qs5. Set Your picture or any picture as the background of the div
+"myPic". Also, set transparency of this div to 50%. */
+/* #myPic {
+    width: 200px;
+    height: 200px;
+    background: pink; */
+/* background: url("https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2") no-repeat center / cover; */
+/* } */
+/* 
+#myPic:hover{
+    background: white url('https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?cs=srgb&dl=pexels-anjana-c-169994-674010.jpg&fm=jpg') no-repeat center / cover ;
+    opacity: 50%;
+} */
+/* 
+
+
+
+///Simlyyyyyyy faceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+.face {
+    width: 500px;
+    height: 500px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: relative;
+    margin: 10rem auto ;
+}
+
+.eye {
+    width: 60px;
+    height: 80px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.eye1 {
+    position: absolute;
+    top: 8rem;
+    left: 8rem;
+}
+
+.eye2 {
+    position: absolute;
+    top: 8rem;
+    right: 8rem;
+}
+
+.smile {
+    width: 211px;
+    height: 60px;
+    background-color: rgb(182, 24, 50);
+    border-radius: 0 0 10rem 10rem;
+    position: absolute;
+    left: 9rem;
+    top: 20rem;
+}
+
+.tougue {
+    width: 100px;
+    height: 43px;
+    background-color: pink;
+    border-radius: 6rem 6rem 2rem 3rem;
+    position: absolute;
+    top: 21.1rem;
+    left: 12.8rem;
+} */
+/* 
+.container {
+    margin: auto;
+    border: 5px solid black;
+    height: 600px;
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container div {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+} */
+/* Take the container height & width as 400px & child height & width as 100px.-Font size of text as 50px */
+ .container {
+    width: 400px;
+    height: 400px;
+    border: 5px solid #55afa9;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    align-items: baseline;
+    text-align: center;
+} 
+
+ .container div {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    font-size: 50px;
+    border: 2px solid black;
+    background-color: #808080;
+} 
+/* *{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    height: 40px;
+    width: 90%;
+    border: 3px solid #55afa9;
+    border-radius: 10px;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+}
+
+.container ul {
+    list-style: none;
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+}
+
+.container ul li{
+    align-self: flex-start;
+    font-size: 20px;
+} */
